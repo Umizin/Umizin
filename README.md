@@ -33,3 +33,14 @@
   &nbsp;
   <img align="center" alt="PV-PHP" height="40" width="40" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/php.svg">
 </div>
+          <img align="right" src="https://gifdb.com/images/high/umiko-ahagon-desktop-programming-eg5f8g2281ekfhde.gif" width="250" />
+
+##   
+  <a href="https://www.instagram.com/paulojeon" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+    <a href = "mailto:pv_silva@id.uff.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/paulo-silva-844448287" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
+
+
+
+
