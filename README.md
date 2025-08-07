@@ -1,7 +1,15 @@
 ## Olá! Eu sou o Paulo Silva 👋
 
 - 🔭 Trabalho hoje com Full-Stack.
-- 🌱 Estou aprendendo Vue.js.
+- 🎒 Autoditata.
+- 🎓 5 Período de Engenharia de Software.
+- 🔍 Aficionado em desenvolvimento de Apps.
+
+## Atualmente estou aprendendo:
+- ☕  Java
+- 🇰 Kotlin
+- C++  C++
+
 <div style="display: inline_block"><br>
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="center" src="https://github-readme-stats.vercel.app/api?username=umizin&card_width=320&theme=calm&hide=stars" />
