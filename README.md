@@ -21,7 +21,7 @@
 </div>
 
  ##
-
+## Tecnologias que eu Aprendi:
 <div>
   <img align="center" alt="PV-Js" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   &nbsp;
