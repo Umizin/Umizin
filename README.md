@@ -23,6 +23,8 @@
  ##
 ## Tecnologias que eu Aprendi:
 <div>
+  <img align="center" alt="PV-Lr" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg">
+  &nbsp;
   <img align="center" alt="PV-Js" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   &nbsp;
   <img align="center" alt="PV-Ts" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
