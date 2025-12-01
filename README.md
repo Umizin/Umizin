@@ -1,14 +1,25 @@
 ## Olá! Eu sou o Paulo Silva 👋
 
-- 🔭 Trabalho hoje com Full-Stack.
-- 🎒 Autoditata.
-- 🎓 5 Período de Engenharia de Software.
-- 🔍 Aficionado em desenvolvimento de Apps.
+Full-Stack Developer | Next.js • Vue.js • TypeScript • PHP • APIs
+🎓 Engenharia de Software | 💼 1+ ano experiência
+🚀 Apaixonado por criar produtos que impactam
+  
+## 🎯 Projetos em Destaque
 
-## Atualmente estou aprendendo:
-- ☕  Java
-- 🇰 Kotlin
-- C++  C++
+### 🌟 [Plataforma de Voluntariado - Next.js + Laravel](https://github.com/Umizin/CIHP-Laravel-Nextjs)
+Full-stack app com Next.js 14, TypeScript e Laravel. Arquitetura desacoplada, SSR e autenticação JWT.
+
+### 📦 [API Enterprise - Node.js + NestJS](https://github.com/Umizin/loja-manoel)
+Microserviço RESTful com NestJS, TypeScript e testes automatizados.
+
+### 🚀 [Microserviços - Python + FastAPI](https://github.com/Umizin/transflow-restAPI-mongo-redis-rabbitMQ)
+Arquitetura distribuída com FastAPI, RabbitMQ e Redis.
+
+## 🌱 Atualmente Aprendendo
+- ☕ Java (Spring Boot, JPA)
+- 🎯 Kotlin (Android development)
+- ⚡ WordPress (Themes & Plugins)
+- ☁️ AWS (Cloud architecture)
 
 <div style="display: inline_block"><br>
   <a href="https://github.com/anuraghazra/github-readme-stats">
