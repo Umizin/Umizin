@@ -28,14 +28,14 @@
 
 ## 💼 Experiência
 
-**Desenvolvedor Full Stack — Codemar – Companhia de Desenvolvimento de Maricá** *(set/2026 – atual)*
+**Desenvolvedor Full Stack — Codemar – Companhia de Desenvolvimento de Maricá** *(set/2026 – atual)*<br>
 Módulos de Educação do e-Cidade (PHP, Laravel, PostgreSQL), usados por todas as escolas municipais de Maricá.
 
 - Reduzi o lead time de chamados de ~3 dias para algumas horas, conforme a complexidade, em 30+ chamados, com 6 agentes de IA que criei no Cursor (classificam, implementam, revisam, testam e sincronizam GitLab e help desk).
 - Validações do quadro de horários: choque de horário do docente, limite de tempos seguidos e alerta de carga horária excedente; fim dos anos letivos hardcoded.
 - Em andamento, por iniciativa própria: migração Strangler Fig de aluno/matrícula/turma, com feature flag e rollback por escola e 14 testes PHPUnit na primeira fatia.
 
-**Desenvolvedor Full Stack — Libre Soluções de Governo** *(dez/2024 – set/2026, remoto)*
+**Desenvolvedor Full Stack — Libre Soluções de Governo** *(dez/2024 – set/2026, remoto)*<br>
 Fornecedora GovTech do e-Cidade, ERP municipal (educação, folha, saúde, finanças) de 4 municípios e 50.000+ alunos.
 
 - 2 ciclos (2025 e 2026) do Censo Escolar ao INEP: 100+ campos do layout oficial, regras e validadores para 80+ escolas.
