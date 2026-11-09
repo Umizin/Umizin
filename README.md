@@ -81,7 +81,7 @@ App de música no estilo Spotify (dados simulados) em React Native, Expo Router 
 
 ## 📬 Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-gon%C3%A7alves-844448287/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-goncalves-dev/)
 [![Email](https://img.shields.io/badge/Email-333?style=flat&logo=gmail&logoColor=white)](mailto:paulovictorsilva25@outlook.com)
 
 ![Snake animation](https://raw.githubusercontent.com/umizin/my-snake-game/output/snake.svg)
