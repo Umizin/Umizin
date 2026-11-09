@@ -1,84 +1,87 @@
 # Olá, eu sou o Paulo Gonçalves 👋
 
-**Desenvolvedor Full Stack Pleno** com foco em Backend PHP/Laravel e Node.js · 2 anos de experiência em sistemas de produção atendendo 50.000+ usuários · Engenharia de Software @ UVS
+**Desenvolvedor Full Stack** · ~2 anos em produção no e-Cidade, ERP municipal que atende 50.000+ alunos em 4 municípios · PHP 8, Laravel, Vue.js 3 e PostgreSQL · Bacharelando em Engenharia de Software (Universidade de Vassouras) · Disponível para trabalho remoto, inclusive internacional (UTC-3)
 
 ---
 
-## 🛠️ Stack Principal
+## 🛠️ Stack
 
 **Backend**
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 **Frontend**
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
 
-**Banco de Dados & Infraestrutura**
+**Banco de dados e infraestrutura**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)
 
 ---
 
-## 🚀 Projetos em Produção
+## 💼 Experiência
 
-### [TransFlow — Microsserviços Event-Driven](https://github.com/Umizin/transflow-restAPI-mongo-redis-rabbitMQ)
-Sistema distribuído com 5 microsserviços independentes, comunicação assíncrona via RabbitMQ (filas duráveis, Ack/Nack, dead-letter queues), cache distribuído com Redis e orquestração com Docker Compose. Arquitetura DDD.
+**Desenvolvedor Full Stack — Codemar – Companhia de Desenvolvimento de Maricá** *(set/2026 – atual)*
+Módulos de Educação do e-Cidade (PHP, Laravel, PostgreSQL), usados por todas as escolas municipais de Maricá.
 
-`Python` `FastAPI` `RabbitMQ` `Redis` `MongoDB` `Docker`
+- Reduzi o lead time de chamados de ~3 dias para algumas horas, conforme a complexidade, em 30+ chamados, com 6 agentes de IA que criei no Cursor (classificam, implementam, revisam, testam e sincronizam GitLab e help desk).
+- Validações do quadro de horários: choque de horário do docente, limite de tempos seguidos e alerta de carga horária excedente; fim dos anos letivos hardcoded.
+- Em andamento, por iniciativa própria: migração Strangler Fig de aluno/matrícula/turma, com feature flag e rollback por escola e 14 testes PHPUnit na primeira fatia.
 
----
+**Desenvolvedor Full Stack — Libre Soluções de Governo** *(dez/2024 – set/2026, remoto)*
+Fornecedora GovTech do e-Cidade, ERP municipal (educação, folha, saúde, finanças) de 4 municípios e 50.000+ alunos.
 
-### [Ecommerce Doce Magia](https://ecommerce-doce-magia.vercel.app)
-Plataforma de e-commerce global com assistente virtual IA em produção real (Anthropic Claude API + Vercel AI SDK), fluxos transacionais com Stripe e Mercado Pago, autenticação JWT, arquitetura multi-currency e Mini-CRM.
-
-`Next.js` `React` `TypeScript` `TailwindCSS` `Stripe` `Mercado Pago` `Claude API`
-
----
-
-### [Clínica Agendamentos API](https://github.com/Umizin/clinica-agendamentos-api)
-Sistema de agendamento médico com Clean Architecture, 5 microsserviços, SOLID e Design Patterns (Repository, Factory, Strategy, Observer, Singleton, Adapter) documentados. TDD com Jest e BDD com Cucumber/Gherkin em todos os serviços. Deploy no Render via Docker.
-
-`Node.js` `TypeScript` `React` `Docker` `Jest` `Cucumber`
+- 2 ciclos (2025 e 2026) do Censo Escolar ao INEP: 100+ campos do layout oficial, regras e validadores para 80+ escolas.
+- Destravei a Integração Tributária, que parava sob carga alta: CTEs com pré-filtro e 6 índices B-tree.
+- Corrigi na origem um incidente recorrente que comprometia 4.000+ matrículas.
+- Ciclo de vida de turmas em Laravel e Vue.js 3, com trilha de auditoria via trigger PL/pgSQL.
 
 ---
+
+## 🚀 Projetos
+
+### [Clínica Agendamentos](https://github.com/Umizin/clinica-agendamentos-api)
+Microsserviços Node.js/TypeScript (gateway, pacientes, agendamentos e notificações) com frontend React. Arquitetura Limpa, SOLID, patterns Repository, Factory, Strategy, Observer e Adapter, testes com Jest (TDD) e cenários BDD em Gherkin. Docker Compose e deploy no Render.
+
+`Node.js` `TypeScript` `React` `Jest` `Docker`
 
 ### [API e Web de Gestão de Veículos e Roupas](https://github.com/Umizin/gestao-veiculos-roupas-api)
-API REST full-stack com persistência poliglota: CRUD em MongoDB e usuários em PostgreSQL. JWT com auto-admin no primeiro registro, testes de integração com Supertest, documentação Swagger, paginação e health check. Frontend React com dashboard completo servido via Docker + Nginx.
+API REST em Node.js, Express e TypeScript com CRUD em MongoDB e usuários em PostgreSQL, JWT com perfil admin, paginação, Swagger e testes de integração com Supertest. [Frontend](https://github.com/Umizin/veiculos-roupas-web) em React e Tailwind servido por nginx.
 
-`Node.js` `Express` `TypeScript` `React` `MongoDB` `PostgreSQL` `Docker` `Nginx`
+`Node.js` `Express` `TypeScript` `MongoDB` `PostgreSQL` `React` `Docker`
 
----
+### [API de Empacotamento](https://github.com/Umizin/loja-manoel)
+Microsserviço NestJS (desafio técnico) que recebe pedidos e calcula a alocação dos produtos em caixas. PostgreSQL, JWT, Swagger e testes com Jest.
 
-### [Restaurant Core Web](https://oarranho.vercel.app)
-Aplicação Next.js com SSR otimizado, internacionalização em 15 idiomas, conformidade LGPD/GDPR, Core Web Vitals de alto desempenho e animações com Framer Motion.
+`NestJS` `TypeScript` `PostgreSQL` `Jest` `Docker`
 
-`Next.js` `React` `TypeScript` `TailwindCSS`
+### [CIHP: Plataforma de Voluntariado](https://github.com/Umizin/CIHP-Laravel-Nextjs)
+API RESTful em Laravel (regras de negócio, autenticação e persistência) consumida por uma SPA em Next.js.
 
----
+`Laravel` `Next.js`
 
-## 💼 Experiência Profissional
+### [Teyvat API](https://github.com/Umizin/teyvat-api)
+API REST em Node.js e Express com persistência poliglota: MySQL (Sequelize) para dados relacionais e MongoDB (Mongoose) para dados flexíveis. Arquitetura em camadas e Docker Compose.
 
-**Desenvolvedor Full Stack — Libre Soluções** *(Jul/2024 – Atual)*
-Desenvolvimento e manutenção de sistemas de gestão pública (e-cidade) atendendo 50.000+ usuários em 3 municípios. PHP 8, Laravel, Zend Framework, Vue.js 3, PostgreSQL.
+`Node.js` `Express` `MySQL` `MongoDB` `Docker`
 
-- Redução de 47% no tempo de processamento de módulo crítico com 50.000+ registros via otimização de queries PostgreSQL
-- Adaptação anual do sistema ao Censo Escolar Nacional — 100+ campos modificados sem interrupção de serviço para 80+ escolas
-- Investigação e correção de incidente crítico que comprometia 4.000+ registros em produção
+### [Vibra](https://github.com/Umizin/vibra-app-expo)
+App de música no estilo Spotify (dados simulados) em React Native, Expo Router e TypeScript, com Context API e token guardado no expo-secure-store.
+
+`React Native` `Expo` `TypeScript`
 
 ---
 
 ## 📬 Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-silva-844448287)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-gon%C3%A7alves-844448287/)
 [![Email](https://img.shields.io/badge/Email-333?style=flat&logo=gmail&logoColor=white)](mailto:paulovictorsilva25@outlook.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/paulojeon)
 
 ![Snake animation](https://raw.githubusercontent.com/umizin/my-snake-game/output/snake.svg)
